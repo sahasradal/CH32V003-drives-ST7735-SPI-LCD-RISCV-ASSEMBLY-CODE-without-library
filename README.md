@@ -11,7 +11,7 @@ connections
 #DC  = PC2
 #CLK = PC5
 #MOSI= PC6
-#BL  = PC3
+#BL  = direct 3.3v
 
 UART TX & RX is on PD5 & PD6
 
