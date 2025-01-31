@@ -1306,7 +1306,7 @@ BG_COLOUR:
 	addi x10,x10,-1
 	addi x11,x11,-1
 	lb x7,0(x11)
-	sb x11,0(x10)			# lo byte
+	sb x7,0(x10)			# lo byte
 	call TFTpixel
 	lw x7,12(sp)
 	lw x11,8(sp)
